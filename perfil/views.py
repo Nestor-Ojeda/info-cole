@@ -22,4 +22,4 @@ def iniciar_sesion(request):
 
 def cerrar_sesion(request):
     logout(request)
-    return redirect("inicio:inicio")
+    return redirect("http://127.0.0.1:8000/")

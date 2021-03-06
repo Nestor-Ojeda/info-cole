@@ -4,6 +4,6 @@ from .models import *
 
 # Register your models here.
 
-@admin.register(Direccion)
-class DomicilioAdmin(admin.ModelAdmin):
+@admin.register(Alumno, TutorA, TutorB)
+class AlumnosAdmin(admin.ModelAdmin):
 	pass
